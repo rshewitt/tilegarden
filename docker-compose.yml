@@ -1,6 +1,7 @@
 version: '3.1'
 services:
   database:
+    env_file: .env
     build:
       context: ./src/database
       dockerfile: Dockerfile
@@ -15,6 +16,7 @@ services:
     build:
       context: ./src/tiler
       dockerfile: Dockerfile
+    platform: linux/amd64
     ports:
       - "3000:3000"
       - "9229:9229"
