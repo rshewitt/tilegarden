@@ -64,3 +64,5 @@ typings/
 .directory
 .idea
 
+# images
+**.tif
