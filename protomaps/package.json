@@ -1,0 +1,14 @@
+{
+  "name": "protomaps",
+  "version": "1.0.0",
+  "description": "- https://docs.protomaps.com/deploy/aws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^1.4.0"
+  }
+}
